@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🃏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🃏", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url="http://t.me/Biarenakbott?start=help"),
+        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url="http://t.me/Biarenakbot?start=help"),
     ],
     [
         InlineKeyboardButton(
