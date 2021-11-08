@@ -90,10 +90,10 @@ buttons = [
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/eb61d1611a179a9c1e6ec.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/bacc246339cb5d3cc2580.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/eb61d1611a179a9c1e6ec.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/bacc246339cb5d3cc2580.jpg)
 ✪ /start: 𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮'𝐯𝐞 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐮𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.
 ✪ /help: 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐢𝐬, 𝐈'𝐥𝐥 𝐥𝐞𝐭 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲𝐬𝐞𝐥𝐟!
 ✪ /donate: 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐞𝐫 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.
