@@ -80,20 +80,20 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🃏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🃏", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url="http://t.me/Biarenakbot?start=help"),
+        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url="http://t.me/{BOT_USERNAME}?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url="t.me/Biarenakbot?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url="t.me/{BOT_USERNAME}?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e3687c2f0d0cdf01a83f5.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/773d5c39081a772f5fdb0.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2e141f5e30037e3d76450.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/773d5c39081a772f5fdb0.jpg)
 ✪ /start: 𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮'𝐯𝐞 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐮𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.
 ✪ /help: 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐢𝐬, 𝐈'𝐥𝐥 𝐥𝐞𝐭 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲𝐬𝐞𝐥𝐟!
 ✪ /donate: 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐞𝐫 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.
@@ -367,7 +367,7 @@ def AnkiVector_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [RioUpdates](https://t.me/RioGroupSupport) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n Join [GlitterUpdates](https://t.me/Virtualanonymouse) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
