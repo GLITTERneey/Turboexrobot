@@ -36,7 +36,7 @@ async def download_video(v_url):
                 {
                     "key": "FFmpegExtractAudio",
                     "preferredcodec": "mp3",
-                    "preferredquality": "256",
+                    "preferredquality": "320",
                 }
             ],
             "outtmpl": "%(id)s.mp3",
