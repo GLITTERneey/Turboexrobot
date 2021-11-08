@@ -64,12 +64,12 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 *𝐇𝐚𝐥𝐨!,*
-*𝐒𝐚𝐲𝐚 𝐀𝐝𝐚𝐥𝐚𝐡 𝐓𝐮𝐫𝐛𝐨 𝐄𝐱 𝐑𝐨𝐛𝐨𝐭, 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 / 𝐌𝐮𝐬𝐢𝐜 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐃𝐞𝐧𝐠𝐚𝐧 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐒𝐚𝐧𝐠𝐚𝐭 𝐌𝐞𝐧𝐚𝐫𝐢𝐤.*
+*𝐒𝐚𝐲𝐚 𝐀𝐝𝐚𝐥𝐚𝐡 @{BOT_USERNAME}, 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 / 𝐌𝐮𝐬𝐢𝐜 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐃𝐞𝐧𝐠𝐚𝐧 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐒𝐚𝐧𝐠𝐚𝐭 𝐌𝐞𝐧𝐚𝐫𝐢𝐤.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • 𝐋𝐚𝐬𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧
 • 𝐅𝐞𝐥𝐥 𝐅𝐫𝐞𝐞 𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ 𝐓𝐞𝐤𝐚𝐧 𝐓𝐨𝐦𝐛𝐨𝐥 /Help 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐞𝐭𝐚𝐡𝐮𝐢 𝐅𝐢𝐭𝐮𝐫 𝐌𝐞𝐧𝐚𝐫𝐢𝐤 𝐃𝐚𝐫𝐢 𝐓𝐮𝐫𝐛𝐨 𝐄𝐱 𝐑𝐨𝐛𝐨𝐭 ××
+➛ 𝐓𝐞𝐤𝐚𝐧 𝐓𝐨𝐦𝐛𝐨𝐥 /Help 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐞𝐭𝐚𝐡𝐮𝐢 𝐅𝐢𝐭𝐮𝐫 𝐌𝐞𝐧𝐚𝐫𝐢𝐤 𝐃𝐚𝐫𝐢 @{BOT_USERNAME} ××
 
 """
 
@@ -80,11 +80,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🃏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🃏", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url="http://t.me/{BOT_USERNAME}?start=help"),
+        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/{BOT_USERNAME}?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url="t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ),
     ],
 ]
