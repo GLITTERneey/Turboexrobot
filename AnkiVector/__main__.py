@@ -84,7 +84,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐒𝐚𝐲𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐀𝐧𝐝𝐚 ➕", url=f"https://t.me/Cannabismusicbot?startgroup=true"
         ),
     ],
 ]
