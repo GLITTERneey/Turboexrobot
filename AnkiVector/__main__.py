@@ -79,12 +79,12 @@ buttons = [
         InlineKeyboardButton(text="✨𝐆𝐫𝐨𝐮𝐩𝐬✨", url="https://t.me/Virtualllnihsad"),
     ],
     [
-        InlineKeyboardButton(text="🃏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🃏", url="https://t.me/Biarenakliatnyaaa"),
+        InlineKeyboardButton(text="💡𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫💡", url="https://t.me/Biarenakliatnyaaa"),
         InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/Cannabismusicbot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐋𝐮 𝐘𝐚 𝐊𝐨𝐧𝐭𝐨𝐥 ➕", url=f"https://t.me/Cannabismusicbot?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 🙋‍♂️", url=f"https://t.me/Cannabismusicbot?startgroup=true"
         ),
     ],
 ]
