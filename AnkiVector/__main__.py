@@ -75,7 +75,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/storeglitter"),
+        InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TurboMusicChnl"),
         InlineKeyboardButton(text="𝐆𝐫𝐨𝐮𝐩𝐬", url="https://t.me/TurboGroupSupport"),
     ],
     [
