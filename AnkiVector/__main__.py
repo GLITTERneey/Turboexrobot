@@ -75,16 +75,16 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="💡𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭💡", url="https://t.me/Irsan5045"),
-        InlineKeyboardButton(text="✨𝐆𝐫𝐨𝐮𝐩𝐬✨", url="https://t.me/MargaNighting"),
+        InlineKeyboardButton(text="💡𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭💡", url="https://t.me/Biarenakliatnyaaa"),
+        InlineKeyboardButton(text="✨𝐆𝐫𝐨𝐮𝐩𝐬✨", url="https://t.me/Virtualllnihsad"),
     ],
     [
         InlineKeyboardButton(text="🩸𝐃𝐨𝐧𝐚𝐭𝐮𝐫🩸", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/nightingrobot?start=help"),
+        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/Musicanonimbot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐊𝐧𝐭𝐥 🙋‍♂️", url=f"https://t.me/nightingrobot?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐊𝐧𝐭𝐥 🙋‍♂️", url=f"https://t.me/Musicanonimbot?startgroup=true"
         ),
     ],
 ]
