@@ -262,7 +262,7 @@ async def lego(event):
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
-    fillcolor = "gold"
+    fillcolor = "black"
     shadowcolor = "blue"
     font = ImageFont.truetype("./AnkiVector/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
@@ -271,8 +271,8 @@ async def lego(event):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "AnkiVectorLogo.png"
+    draw.text((x, y), text, font=font, fill="white", stroke_width=25, stroke_fill="black")
+    fname2 = "Cutiepii.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @Biarenakliatnyaaa ⚡️")
     if os.path.exists(fname2):
