@@ -64,36 +64,36 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 *𝐇𝐚𝐥𝐨!,*
-*𝐒𝐚𝐲𝐚 𝐀𝐝𝐚𝐥𝐚𝐡 𝐓𝐮𝐫𝐛𝐨 𝐇𝐢𝐫𝐨𝐤𝐢 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 / 𝐌𝐮𝐬𝐢𝐜 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐃𝐞𝐧𝐠𝐚𝐧 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐒𝐚𝐧𝐠𝐚𝐭 𝐌𝐞𝐧𝐚𝐫𝐢𝐤.*
+*𝐒𝐚𝐲𝐚 𝐀𝐝𝐚𝐥𝐚𝐡 𝐌𝐮𝐬𝐢𝐜 𝐀𝐧𝐨𝐧𝐢𝐦 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 / 𝐌𝐮𝐬𝐢𝐜 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐃𝐞𝐧𝐠𝐚𝐧 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐒𝐚𝐧𝐠𝐚𝐭 𝐌𝐞𝐧𝐚𝐫𝐢𝐤.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • 𝐋𝐚𝐬𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧
 • 𝐅𝐞𝐥𝐥 𝐅𝐫𝐞𝐞 𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ 𝐓𝐞𝐤𝐚𝐧 𝐓𝐨𝐦𝐛𝐨𝐥 /Help 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐞𝐭𝐚𝐡𝐮𝐢 𝐅𝐢𝐭𝐮𝐫 𝐌𝐞𝐧𝐚𝐫𝐢𝐤 𝐃𝐚𝐫𝐢 𝐓𝐮𝐫𝐛𝐨 𝐇𝐢𝐫𝐨𝐤𝐢 𝐁𝐨𝐭××
+➛ 𝐓𝐞𝐤𝐚𝐧 𝐓𝐨𝐦𝐛𝐨𝐥 /Help 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐞𝐭𝐚𝐡𝐮𝐢 𝐅𝐢𝐭𝐮𝐫 𝐌𝐞𝐧𝐚𝐫𝐢𝐤 𝐃𝐚𝐫𝐢 𝐌𝐮𝐬𝐢𝐜 𝐀𝐧𝐨𝐧𝐢𝐦 𝐁𝐨𝐭××
 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🌻𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌻", url="https://t.me/storeglitter"),
-        InlineKeyboardButton(text="☕𝐆𝐫𝐨𝐮𝐩𝐬☕", url="https://t.me/Virtualllnihsad"),
+        InlineKeyboardButton(text="🌻𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/storeglitter"),
+        InlineKeyboardButton(text="☕𝐆𝐫𝐨𝐮𝐩𝐬", url="https://t.me/Virtualllnihsad"),
     ],
     [
         InlineKeyboardButton(text="✨𝐃𝐨𝐧𝐚𝐭𝐮𝐫✨", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/Biarenakbot?start=help"),
+        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/Musicanonimbot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐊𝐧𝐭𝐥 🙋‍♂️", url=f"https://t.me/Biarenakbot?startgroup=true"
+            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐊𝐧𝐭𝐥 🙋‍♂️", url=f"https://t.me/Musicanonimbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/f1c714cc39a8afb806787.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/94e543ed72abac37b5b9a.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/f1c714cc39a8afb806787.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/94e543ed72abac37b5b9a.jpg)
 ✪ /start: 𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮'𝐯𝐞 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐮𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.
 ✪ /help: 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐢𝐬, 𝐈'𝐥𝐥 𝐥𝐞𝐭 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲𝐬𝐞𝐥𝐟!
 ✪ /donate: 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐞𝐫 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.
