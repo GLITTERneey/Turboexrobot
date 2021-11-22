@@ -63,28 +63,29 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-*𝐇𝐚𝐥𝐨!,*
-*𝐒𝐚𝐲𝐚 𝐀𝐝𝐚𝐥𝐚𝐡 𝐁𝐨𝐭 𝐓𝐮𝐫𝐛𝐨 𝐇𝐢𝐫𝐨𝐤𝐢 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 / 𝐌𝐮𝐬𝐢𝐜 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐃𝐞𝐧𝐠𝐚𝐧 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐒𝐚𝐧𝐠𝐚𝐭 𝐌𝐞𝐧𝐚𝐫𝐢𝐤.*
+*ʜᴀʟʟᴏ!,*
+*sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴛᴜʀʙᴏ ʜɪʀᴏᴋɪ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇɴɢᴀɴ ғɪᴛᴜʀ ʏᴀɴɢ sᴀɴɢᴀᴛ ᴍᴇɴᴀʀɪᴋ...*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• 𝐋𝐚𝐬𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧
-• 𝐅𝐞𝐥𝐥 𝐅𝐫𝐞𝐞 𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩
+• ʟᴀsᴛ ᴠᴇʀsɪᴏɴ.
+• ғᴇʟʟ ғʀᴇᴇ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+• ᴅᴇᴠᴇʟᴏᴘᴇʀ @Biarenakliatnyaaaa
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ 𝐓𝐞𝐤𝐚𝐧 𝐓𝐨𝐦𝐛𝐨𝐥 /Help 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐞𝐭𝐚𝐡𝐮𝐢 𝐅𝐢𝐭𝐮𝐫 𝐌𝐞𝐧𝐚𝐫𝐢𝐤 𝐃𝐚𝐫𝐢 𝐌𝐮𝐬𝐢𝐜 𝐀𝐧𝐨𝐧𝐢𝐦 𝐁𝐨𝐭××
+➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴍᴜsɪᴄ ᴛᴜʀʙᴏ ʜɪʀᴏᴋɪ.
 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TurboMusicChnl"),
-        InlineKeyboardButton(text="𝐆𝐫𝐨𝐮𝐩𝐬", url="https://t.me/TurboGroupSupport"),
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/TurboMusicChnl"),
+        InlineKeyboardButton(text="ɢʀᴏᴜᴘs", url="https://t.me/TurboGroupSupport"),
     ],
     [
-        InlineKeyboardButton(text="𝐃𝐨𝐧𝐚𝐭𝐮𝐫", url="https://t.me/Biarenakliatnyaaa"),
-        InlineKeyboardButton(text="❔ 𝐇𝐞𝐥𝐩", url=f"https://t.me/Biarenakbot?start=help"),
+        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴜʀ", url="https://t.me/Biarenakliatnyaaaa"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/Biarenakbot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐆𝐮𝐚 𝐊𝐞 𝐆𝐫𝐨𝐮𝐩𝐬 𝐊𝐧𝐭𝐥 🙋‍♂️", url=f"https://t.me/Biarenakbot?startgroup=true"
+            text="➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴜᴀ ᴋᴇ ɢʀᴏᴜᴘs ʟᴜ ᴋɴᴛʟ 🙋‍♂️", url=f"https://t.me/Biarenakbot?startgroup=true"
         ),
     ],
 ]
