@@ -64,13 +64,13 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 *ʜᴀʟʟᴏ!,*
-*sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴛᴜʀʙᴏ ʜɪʀᴏᴋɪ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇɴɢᴀɴ ғɪᴛᴜʀ ʏᴀɴɢ sᴀɴɢᴀᴛ ᴍᴇɴᴀʀɪᴋ...*
+*sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴀɴᴏɴɪᴍ ʀᴏʙᴏᴛ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇɴɢᴀɴ ғɪᴛᴜʀ ʏᴀɴɢ sᴀɴɢᴀᴛ ᴍᴇɴᴀʀɪᴋ...*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• ʟᴀsᴛ ᴠᴇʀsɪᴏɴ.
+
 • ғᴇʟʟ ғʀᴇᴇ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 • ᴅᴇᴠᴇʟᴏᴘᴇʀ @Biarenakliatnyaaaa
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴍᴜsɪᴄ ᴛᴜʀʙᴏ ʜɪʀᴏᴋɪ.
+➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴍᴜsɪᴄ ᴀɴᴏɴɪᴍ ʀᴏʙᴏᴛ.
 
 """
 
@@ -81,20 +81,20 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴜʀ", url="https://t.me/Biarenakliatnyaaaa"),
-        InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/Biarenakbot?start=help"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/Musicanonimbot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴜᴀ ᴋᴇ ɢʀᴏᴜᴘs ʟᴜ ᴋɴᴛʟ 🙋‍♂️", url=f"https://t.me/Biarenakbot?startgroup=true"
+            text="➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴜᴀ ᴋᴇ ɢʀᴏᴜᴘs ʟᴜ ᴋɴᴛʟ 🙋‍♂️", url=f"https://t.me/Musicanonimbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/f1c714cc39a8afb806787.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/a8d7c3eff933b254c6ab4.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/f1c714cc39a8afb806787.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/b4bc212528539a589b47c.jpg)
 ✪ /start: 𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮'𝐯𝐞 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐮𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.
 ✪ /help: 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐢𝐬, 𝐈'𝐥𝐥 𝐥𝐞𝐭 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲𝐬𝐞𝐥𝐟!
 ✪ /donate: 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐞𝐫 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.
